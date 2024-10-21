@@ -29,7 +29,7 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-6xl font-bold mb-8 text-gray-900 dark:text-white">About Me</h2>
+        <h2 className="text-6xl font-bold mb-8 text-gray-900 dark:text-white">Who Am I?</h2>
         <p className="text-3xl text-gray-600 dark:text-gray-400 md:float-left md:w-3/4 md:pr-6">
           Hi, I'm Rohan, a passionate software developer based in <a href="https://ca.octobersveryown.com/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Toronto</a>. I'm currently studying in the International Baccalaureate Diploma Programme (IBDP) in 11th grade. In my free time, I enjoy hitting the gym to stay fit and playing video games to unwind (obsessed with <a href="https://dragonballsparkingzero.com/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Sparking Zero!</a> currently). For the past two years, I've been honing my coding skills, particularly focusing on competitive programming. I have a strong background in web development, where I enjoy creating user-friendly solutions that empower people to achieve their goals.
         </p>
