@@ -18,7 +18,7 @@ const Work = () => {
         <div className="p-6 rounded-lg bg-gray-100 dark:bg-gray-800 text-center transition-transform transform hover:scale-105">
           <a href="https://graphimator.vercel.app/" className="text-2xl font-semibold text-blue-500 dark:text-blue-400 hover:underline">DevR</a>
           <img src="/devr.png" alt="DevR Project" className="w-full h-48 object-cover rounded-lg mt-4" />
-          <p className="mt-2 text-gray-600 dark:text-gray-400">DevR is a dynamic equation visualizer built for my IBDP SL Math AA IA.</p>
+          <p className="mt-2 text-gray-600 dark:text-gray-400">DevR is a dynamic equation visualizer built with ThreeJs - I was bored in English class.</p>
         </div>
         {/* VerbalFlow Project */}
         <div className="p-6 rounded-lg bg-gray-100 dark:bg-gray-800 text-center transition-transform transform hover:scale-105">
