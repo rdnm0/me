@@ -10,7 +10,6 @@ const Home = () => {
       </p>
       <hr className="border-gray-300 dark:border-gray-700 w-3/4 mb-8" />
       <p className="text-sm text-gray-500 dark:text-gray-500">
-        Scroll down to explore my work
       </p>
     </div>
   );

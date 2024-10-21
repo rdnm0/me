@@ -5,3 +5,23 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+a {
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #0070f3;
+}
+
+#about, #work {
+  padding-top: 6rem; /* Additional padding for the fixed navbar */
+}
+  
