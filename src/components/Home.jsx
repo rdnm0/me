@@ -18,7 +18,8 @@ const Home = () => {
       
       <hr className="border-black dark:border-gray-700 w-3/4 mb-8" />
       <p className="text-mid text-gray-500 dark:text-gray-500">
-        scroll down to learn more! : D
+        this site is an active WIP.
+        
       </p> 
     </div>
   );
