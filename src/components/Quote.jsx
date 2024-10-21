@@ -13,7 +13,7 @@ const Quote = () => {
       transition={{ duration: 1 }}
     >
       <motion.p 
-        className="text-4xl font-semibold italic text-gray-700 dark:text-gray-300 text-center w-full max-w-none"
+        className="text-4xl font-semibold italic text-black dark:text-gray-300 text-center w-full max-w-none"
         style={{ fontFamily: "'Arima', cursive", letterSpacing: '0.1em' }}
       >
         {quoteArray.map((char, index) => (

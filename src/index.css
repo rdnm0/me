@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Varela', sans-serif;
 }
 
 section {
@@ -24,4 +24,4 @@ a:hover {
 #about, #work {
   padding-top: 6rem; /* Additional padding for the fixed navbar */
 }
-  
+
