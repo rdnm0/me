@@ -3,7 +3,7 @@ import DarkModeToggle from './DarkModeToggle';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 flex flex-col sm:flex-row justify-between items-center p-4 sm:p-6 bg-white dark:bg-gray-800 shadow-md text-lg z-50">
+    <nav className="fixed top-0 left-0 right-0 hidden md:flex flex-col sm:flex-row justify-between items-center p-4 sm:p-6 bg-white dark:bg-gray-800 shadow-md text-lg z-50">
       <a href="#home" className="text-3xl font-bold text-gray-900 dark:text-white hover:animate-spin mb-2 sm:mb-0">
         RD.
       </a>
