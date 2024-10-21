@@ -12,14 +12,14 @@ const Home = () => {
           </span>
         </button>
       </h1>
-      <p className="text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl">
-        I'm a product designer based in Toronto who enjoys breaking down complex problems
-        to craft solutions that make it simpler for people to achieve their goals.
+      <p className="text-xl text-black dark:text-gray-400 mb-12 max-w-2xl">
+        I'm a 16 year old software developer based in Toronto, I love solving problems and building my imagination with programming!
       </p>
       
-      <hr className="border-gray-300 dark:border-gray-700 w-3/4 mb-8" />
-      <p className="text-sm text-gray-500 dark:text-gray-500">
-      </p>
+      <hr className="border-black dark:border-gray-700 w-3/4 mb-8" />
+      <p className="text-mid text-gray-500 dark:text-gray-500">
+        scroll down to learn more! : D
+      </p> 
     </div>
   );
 };
