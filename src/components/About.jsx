@@ -26,7 +26,7 @@
         >
             <h2 className="text-6xl font-bold mb-8 text-gray-900 dark:text-white">About Me</h2>
             <p className="text-3xl text-gray-600 dark:text-gray-400 md:float-left md:w-3/4 md:pr-6">
-            Hi, I'm Rohan, a passionate software developer based in Toronto. I'm currently studying in the International Baccalaureate Diploma Programme (IBDP) in 11th grade. In my free time, I enjoy hitting the gym to stay fit and watching netflix to unwind. For the past two years, I've been honing my coding skills, particularly focusing on competitive programming. I have a strong background in web development, where I enjoy creating user-friendly solutions that empower people to achieve their goals.
+            Hi, I'm Rohan, a passionate software developer based in Toronto. I'm currently studying in the International Baccalaureate Diploma Programme (IBDP) in 11th grade. In my free time, I enjoy hitting the gym to stay fit and watching television to unwind. For the past two years, I've been honing my coding skills, particularly focusing on competitive programming. I have a strong background in web development, where I enjoy creating user-friendly solutions that empower people to achieve their goals.
 
             </p>
         </motion.div>
