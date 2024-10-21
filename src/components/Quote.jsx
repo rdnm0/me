@@ -38,7 +38,7 @@ const Quote = () => {
     >
       <p 
         className="text-4xl font-semibold italic text-black dark:text-gray-300 text-center w-full max-w-none"
-        style={{ fontFamily: "'Arima', cursive", letterSpacing: '0.1em' }}
+        style={{ fontFamily: "'Caveat Brush', cursive", letterSpacing: '0.1em' }}
       >
         {quote}
       </p>
