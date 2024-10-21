@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
-const quote = `“A lesson without pain is meaningless. That’s because no one can gain without sacrificing something. But by enduring that pain and overcoming it, you shall obtain a powerful, unmatched heart.”
+const quote = `"The wise, seeing the same in all beings, regard all beings as equal."
 
-― Edward Elric, Fullmetal Alchemist: Brotherhood`;
+― Krishna, Bhagvad Gita 5.18`;
 
 const Quote = () => {
   const quoteRef = useRef(null);
