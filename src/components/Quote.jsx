@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
-const quote = "“A lesson without pain is meaningless. That’s because no one can gain without sacrificing something. But by enduring that pain and overcoming it, you shall obtain a powerful, unmatched heart.” ― Edward Elric, Fullmetal Alchemist: Brotherhood";
+const quote = `“A lesson without pain is meaningless. That’s because no one can gain without sacrificing something. But by enduring that pain and overcoming it, you shall obtain a powerful, unmatched heart.”
+
+― Edward Elric, Fullmetal Alchemist: Brotherhood`;
 
 const Quote = () => {
   const quoteRef = useRef(null);
@@ -40,7 +42,12 @@ const Quote = () => {
         className="text-4xl font-semibold italic text-black dark:text-gray-300 text-center w-full max-w-none"
         style={{ fontFamily: "'Caveat Brush', cursive", letterSpacing: '0.1em' }}
       >
-        {quote}
+        {quote.split('\n').map((line, index) => (
+          <span key={index}>
+            {line}
+            {index < quote.split('\n').length - 1 && <br />} {/* Add a line break between lines */}
+          </span>
+        ))}
       </p>
     </motion.div>
   );
