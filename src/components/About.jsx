@@ -11,13 +11,12 @@ const About = () => {
         animate={{ scale: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        <div className="w-96 h-96 rounded-full overflow-hidden shadow-lg transition-transform duration-300 transform hover:scale-105">
+        <div className="w-full md:w-[500px] h-auto overflow-hidden rounded-full transition-transform shadow-lg duration-300 transform hover:scale-110">
           <motion.img
             src="/gohanpfp.jpg"
             alt="Rohan's profile"
             className="object-cover w-full h-full"
-            whileHover={{ rotate: 360 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 5 }}
           />
         </div>
       </motion.div>
