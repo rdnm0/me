@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const quote = `"There are no facts, only interpretations."
+
 ― Friedrich Nietzsche`
 
 
