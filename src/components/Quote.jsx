@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
-const quote = `"The wise, seeing the same in all beings, regard all beings as equal."
+const quote = `"There are no facts, only interpretations."
+― Friedrich Nietzsche`
 
-― Krishna, Bhagvad Gita 5.18`;
 
 const Quote = () => {
   const quoteRef = useRef(null);
